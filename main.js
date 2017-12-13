@@ -30,6 +30,7 @@ var flappy = {
   size : 25,
   alive : true,
   jump : true,
+  score : 0;
   update : function () {
     if(keys[32] && this.jump && flappy.alive){
       this.t = 0;
